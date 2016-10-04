@@ -14,7 +14,10 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Terraform (WIP)** - [Configurations](https://github.com/jerrywardlow/p3catalog/tree/master/provision/terraform) to launch AWS and Digital Ocean infrastructure.
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
-### Wordpress
+### [Wordpress on Amazon Web Services](https://github.com/jerrywardlow/devops-playground/tree/master/wordpress-cloud)
+A demonstration of Amazon Web Services technologies focused around using [Terraform](https://www.terraform.io/) to implement infrastructure as code. EC2 application servers running Wordpress are isolated in private subnets across multiple availability zones, accessed through an Elastic Load Balancer. Data is stored in a Relational Database Service MySQL instance and cached with ElastiCache/Redis. Static content is uploaded to S3 and CloudFront is used as a CDN.
+
+Packer is used in conjunction with a shell script to generate an AMI which may be used with Terraform to stand up rapidly deployed EC2 servers. Future improvements include implementing auto-scaling groups for the web servers and using OpsWorks for configuration management.
 
 ### Ansible
 
