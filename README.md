@@ -24,10 +24,10 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 
 ### [Docker](https://github.com/jerrywardlow/docker-playground)
 
-** [Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile) ** - An incredibly lightweight and irresponsible containerized implementation of the aforementioned [Item Catalog](https://github.com/jerrywardlow/p3catalog) on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
+[Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile) - An incredibly lightweight and irresponsible containerized implementation of the aforementioned [Item Catalog](https://github.com/jerrywardlow/p3catalog) on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
 
-** [Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml) ** - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
+[Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml) - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
 
-** [Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/) ** - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
+[Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/) - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
 
-** [Express](https://hub.docker.com/r/jerrywardlow/express-catalog/) ** - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
+[Express](https://hub.docker.com/r/jerrywardlow/express-catalog/) - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
