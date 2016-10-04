@@ -23,7 +23,7 @@ Packer is used in conjunction with a shell script to generate an AMI which may b
 ### [Ansible Configuration for Vanilla Forums](https://github.com/jerrywardlow/vanilla-qa)
 Ansible playbooks to install and configure the Vanilla Forums PHP web application. Playbook functionality includes configuration of a MySQL database, installation and configuration of Vanilla on application servers, and a HAProxy load balancer. Planned additions include replication of the MySQL database across additional slave servers. An included Vagrantfile brings up local virtual machines for testing.
 ***
-### [Docker](https://github.com/jerrywardlow/docker-playground)
+### Docker
 
 [Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile) - An incredibly lightweight and irresponsible containerized implementation of the aforementioned [Item Catalog](https://github.com/jerrywardlow/p3catalog) on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
 
