@@ -14,14 +14,15 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Terraform (WIP)** - [Configurations](https://github.com/jerrywardlow/p3catalog/tree/master/provision/terraform) to launch AWS and Digital Ocean infrastructure.
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
+***
 ### [Wordpress on Amazon Web Services](https://github.com/jerrywardlow/devops-playground/tree/master/wordpress-cloud)
 A demonstration of Amazon Web Services technologies focused around using [Terraform](https://www.terraform.io/) to implement infrastructure as code. EC2 application servers running Wordpress are isolated in private subnets across multiple availability zones, accessed through an Elastic Load Balancer. Data is stored in a Relational Database Service MySQL instance and cached with ElastiCache/Redis. Static content is uploaded to S3 and CloudFront is used as a CDN.
 
 Packer is used in conjunction with a shell script to generate an AMI which may be used with Terraform to stand up rapidly deployed EC2 servers. Future improvements include implementing auto-scaling groups for the web servers and using OpsWorks for configuration management.
-
+***
 ### [Ansible Configuration for Vanilla Forums](https://github.com/jerrywardlow/vanilla-qa)
 Ansible playbooks to install and configure the Vanilla Forums PHP web application. Playbook functionality includes configuration of a MySQL database, installation and configuration of Vanilla on application servers, and a HAProxy load balancer. Planned additions include replication of the MySQL database across additional slave servers. An included Vagrantfile brings up local virtual machines for testing.
-
+***
 ### [Docker](https://github.com/jerrywardlow/docker-playground)
 
 [Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile) - An incredibly lightweight and irresponsible containerized implementation of the aforementioned [Item Catalog](https://github.com/jerrywardlow/p3catalog) on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
@@ -31,7 +32,7 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 [Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/) - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
 
 [Express](https://hub.docker.com/r/jerrywardlow/express-catalog/) - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
-
+***
 ### Ansible
 
 [Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla) - Configuration for Joomla CMS and associated PostgreSQL database.
@@ -39,7 +40,7 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 [MEAN catalog](https://github.com/jerrywardlow/meansible) - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
 
 [p5linux](https://github.com/jerrywardlow/p5linux) - Ansible playbook for Project 5 of the Udacity Full Stack Web Developer Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
-
+***
 ### [Conference Central](https://github.com/jerrywardlow/p4conference)
 
 A Google App Engine project implementing a RESTful API server. OAuth2 is used to authenticate users and grant access to API functions. A basic front end is provided for convenient access to the API. This project was built for the Udacity Full Stack Web Developer Nanodegree.
