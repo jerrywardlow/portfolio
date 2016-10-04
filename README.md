@@ -21,7 +21,3 @@ Packer is used in conjunction with a shell script to generate an AMI which may b
 
 ### [Ansible Configuration for Vanilla Forums](https://github.com/jerrywardlow/vanilla-qa)
 Ansible playbooks to install and configure the Vanilla Forums PHP web application. Playbook functionality includes configuration of a MySQL database, installation and configuration of Vanilla on application servers, and a HAProxy load balancer. Planned additions include replication of the MySQL database across additional slave servers. An included Vagrantfile brings up local virtual machines for testing.
-
-### Python
-
-### Ruby
