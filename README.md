@@ -31,3 +31,11 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 [Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/) - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
 
 [Express](https://hub.docker.com/r/jerrywardlow/express-catalog/) - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
+
+### Ansible
+
+[Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla) - Configuration for Joomla CMS and associated PostgreSQL database.
+
+[MEAN catalog](https://github.com/jerrywardlow/meansible) - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
+
+[p5linux](https://github.com/jerrywardlow/p5linux) - Ansible playbook for Project 5 of the Udacity Fullstack Webdeveloper Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
