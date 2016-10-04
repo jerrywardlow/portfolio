@@ -38,4 +38,8 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 
 [MEAN catalog](https://github.com/jerrywardlow/meansible) - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
 
-[p5linux](https://github.com/jerrywardlow/p5linux) - Ansible playbook for Project 5 of the Udacity Fullstack Webdeveloper Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
+[p5linux](https://github.com/jerrywardlow/p5linux) - Ansible playbook for Project 5 of the Udacity Full Stack Web Developer Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
+
+### [Conference Central](https://github.com/jerrywardlow/p4conference)
+
+A Google App Engine project implementing a RESTful API server. OAuth2 is used to authenticate users and grant access to API functions. A basic front end is provided for convenient access to the API. This project was built for the Udacity Full Stack Web Developer Nanodegree.
