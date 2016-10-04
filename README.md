@@ -1,5 +1,5 @@
 # Selected projects by Jerry Wardlow
-***
+
 
 ### [Item Catalog](https://github.com/jerrywardlow/p3catalog)
 A RESTful web application built on the Python Flask framework.
