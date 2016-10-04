@@ -19,7 +19,8 @@ A demonstration of Amazon Web Services technologies focused around using [Terraf
 
 Packer is used in conjunction with a shell script to generate an AMI which may be used with Terraform to stand up rapidly deployed EC2 servers. Future improvements include implementing auto-scaling groups for the web servers and using OpsWorks for configuration management.
 
-### Ansible
+### [Ansible Configuration for Vanilla Forums](https://github.com/jerrywardlow/vanilla-qa)
+Ansible playbooks to install and configure the Vanilla Forums PHP web application. Playbook functionality includes configuration of a MySQL database, installation and configuration of Vanilla on application servers, and a HAProxy load balancer. Planned additions include replication of the MySQL database across additional slave servers. An included Vagrantfile brings up local virtual machines for testing.
 
 ### Python
 
