@@ -1,4 +1,4 @@
-# Selected portfolio pieces by Jerry Wardlow
+# Selected projects by Jerry Wardlow
 ***
 
 ### [Item Catalog](https://github.com/jerrywardlow/p3catalog)
