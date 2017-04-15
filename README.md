@@ -52,6 +52,8 @@ Docker
 Ansible
 ---
 
+[Deploy](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-deploy) - Deployment of Magento 2 artifact generated via CircleCI.
+
 [Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla) - Configuration for Joomla CMS and associated PostgreSQL database.
 
 [MEAN catalog](https://github.com/jerrywardlow/meansible) - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
