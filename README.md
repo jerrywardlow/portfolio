@@ -16,6 +16,18 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
 ***
+[Copious Cookbooks](https://github.com/copious-cookbooks)
+---
+A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Copious](https://github.com/copious) with a 'tests first' strategy.
+
+[magento](https://github.com/copious-cookbooks/magento) - Installation and configuration of [Magento 2](http://devdocs.magento.com/) ecommerce platform.
+
+[users](https://github.com/copious-cookbooks/users) - Creation and management of Linux system users.
+
+[keepalived](https://github.com/copious-cookbooks/keepalived) - Management of the `keepalived` service for Ubuntu, RHEL/CentOS, and Debian platforms
+
+
+***
 [Wordpress on Amazon Web Services ](https://github.com/jerrywardlow/devops-playground/tree/master/terraform-wordpress-cloud)
 ---
 A demonstration of Amazon Web Services technologies focused around using [Terraform](https://www.terraform.io/) to implement infrastructure as code. EC2 application servers running Wordpress are isolated in private subnets across multiple availability zones, accessed through an Elastic Load Balancer. Data is stored in a Relational Database Service MySQL instance and cached with ElastiCache/Redis. Static content is uploaded to S3 and CloudFront is used as a CDN.
