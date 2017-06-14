@@ -52,7 +52,7 @@ Docker
 Ansible
 ---
 
-[Deploy](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-deploy) - Deployment of Magento 2 artifact generated via CircleCI.
+[Magento](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-magento) - Deployment of Magento 2 artifact generated via CircleCI.
 
 [Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla) - Configuration for Joomla CMS and associated PostgreSQL database.
 
