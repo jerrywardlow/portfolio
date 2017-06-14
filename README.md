@@ -26,6 +26,10 @@ A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Co
 
 [keepalived](https://github.com/copious-cookbooks/keepalived) - Management of the `keepalived` service for Ubuntu, RHEL/CentOS, and Debian platforms
 
+***
+[Dreadnought](https://github.com/jerrywardlow/devops-playground/tree/master/dreadnought)
+---
+A reference project using HAProxy to route requests via host headers to a variety of web applications. Presently, the project consists of a `Vagrantfile` which provisions five virtual machines, of which both Ubuntu and CentOS are present. Configuration management was originally handled by shell scripts, but has been updated to Ansible roles. Includes roles for HAProxy, Wordpress, Magento, NodeBB, ELK, and others.
 
 ***
 [Wordpress on Amazon Web Services ](https://github.com/jerrywardlow/devops-playground/tree/master/terraform-wordpress-cloud)
