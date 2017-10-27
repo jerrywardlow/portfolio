@@ -16,6 +16,21 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
 ***
+[Cascadia Cookbooks](https://github.com/cascadia-cookbooks)
+---
+Open source cookbooks and templates covering a range of services, applications, infrastructures, and providers. Intended to be a stepping off point for collaboration across organizations without the limitations or associations of any single for profit group.
+
+[Magento 2 Terraform Reference - AWS](https://github.com/cascadia-cookbooks/magento2-terraform-aws) - Large scale highly available infrastructure reference for the Magento 2 ecommerce application. Includes configuration for EC2 auto scaling groups, EFS file system, RDS database, security groups, and more. Use as a module allows for convenience and reapatibility across multiple environments (preview, staging, production, etc.).
+
+[Magento 2 Terraform Reference - DigitalOcean](https://github.com/cascadia-cookbooks/magento2-terraform-digitalocean) - Basic configuration of DigitalOcean resources for a low cost, low complexity alternative to managed hosting providers. Intended for use as a module to provision application and database droplets. Includes example of module usage for reference.
+
+[Magento 2 Starter](https://github.com/cascadia-cookbooks/magento2-starter) - Work in progress. Starter project for the Magento 2 ecommerce application. Intended as a "fork-and-go" for anyone looking for a quickstart into a highly customizable deployment of Magento 2. Includes configuration management for multiple environments (local, staging, production) utilizing strictly open source Chef cookbooks.
+
+[Magento Chef cookbook](https://github.com/cascadia-cookbooks/magento) - Work in progress. Chef cookbook for the pre-deployment configuration of a Magento 2 environment.
+
+[Robots.txt Chef cookbook](https://github.com/cascadia-cookbooks/robots) - Chef cookbook for the management of a site's `robots.txt`.
+
+***
 [Copious Cookbooks](https://github.com/copious-cookbooks)
 ---
 A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Copious](https://github.com/copious) with a 'tests first' strategy.
