@@ -28,9 +28,13 @@ Open source cookbooks and templates covering a range of services, applications, 
 
 [Magento 2 Starter](https://github.com/cascadia-cookbooks/magento2-starter) - Work in progress. Starter project for the Magento 2 ecommerce application. Intended as a "fork-and-go" for anyone looking for a quickstart into a highly customizable deployment of Magento 2. Includes configuration management for multiple environments (local, staging, production) utilizing strictly open source Chef cookbooks.
 
+[Cron Chef cookbook](https://github.com/cascadia-cookbooks/cron) - Chef cookbook for management of the cron daemon and creation of cron jobs.
+
 [Magento Chef cookbook](https://github.com/cascadia-cookbooks/magento) - Work in progress. Chef cookbook for the pre-deployment configuration of a Magento 2 environment.
 
 [Robots.txt Chef cookbook](https://github.com/cascadia-cookbooks/robots) - Chef cookbook for the management of a site's `robots.txt`.
+
+[![Doug](/assets/cascadia/doug.png)](https://en.wikipedia.org/wiki/Doug_flag) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Chef](/assets/cascadia/chef.png)](https://www.chef.io/) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Terraform](/assets/cascadia/terraform.png)](https://www.terraform.io/) 
 
 ***
 [Copious Cookbooks](https://github.com/copious-cookbooks)
