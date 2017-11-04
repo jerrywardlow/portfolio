@@ -15,7 +15,7 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Terraform (WIP)** - [Configurations](https://github.com/jerrywardlow/p3catalog/tree/master/provision/terraform) to launch AWS and Digital Ocean infrastructure.
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
-[![Item Catalog](/assets/item_catalog/catalog1_s.png)](/assets/item_catalog/catalog1.PNG) [![Item Catalog](/assets/item_catalog/catalog2_s.png)](/assets/item_catalog/catalog2.PNG)
+[![Item Catalog](/assets/item_catalog/catalog1_s.png)](https://raw.githubusercontent.com/jerrywardlow/portfolio/master/assets/item_catalog/catalog1.PNG) [![Item Catalog](/assets/item_catalog/catalog2_s.png)](https://raw.githubusercontent.com/jerrywardlow/portfolio/master/assets/item_catalog/catalog2.PNG)
 
 ***
 [Cascadia Cookbooks](https://github.com/cascadia-cookbooks)
@@ -47,6 +47,8 @@ A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Co
 [Dreadnought](https://github.com/jerrywardlow/devops-playground/tree/master/dreadnought)
 ---
 A reference project using HAProxy to route requests via host headers to a variety of web applications. Presently, the project consists of a `Vagrantfile` which provisions five virtual machines, of which both Ubuntu and CentOS are present. Configuration management was originally handled by shell scripts, but has been updated to Ansible roles. Includes roles for HAProxy, Wordpress, Magento, NodeBB, ELK, and others.
+
+[![Dreadnought](/assets/dreadnought/dreadnought_s.png)](https://raw.githubusercontent.com/jerrywardlow/portfolio/master/assets/dreadnought/dreadnought.png)
 
 ***
 [Wordpress on Amazon Web Services ](https://github.com/jerrywardlow/devops-playground/tree/master/terraform-wordpress-cloud)
