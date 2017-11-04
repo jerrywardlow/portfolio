@@ -15,6 +15,8 @@ In addition to the web app, multiple deployment and configuration options are pr
 * **Terraform (WIP)** - [Configurations](https://github.com/jerrywardlow/p3catalog/tree/master/provision/terraform) to launch AWS and Digital Ocean infrastructure.
 * **Shell Script** - Application server and database [shell scripts](https://github.com/jerrywardlow/p3catalog/tree/master/provision/shell)
 
+[![Item Catalog](/assets/item_catalog/catalog1_s.png)](/assets/item_catalog/catalog1.PNG) [![Item Catalog](/assets/item_catalog/catalog2_s.png)](/assets/item_catalog/catalog2.PNG)
+
 ***
 [Cascadia Cookbooks](https://github.com/cascadia-cookbooks)
 ---
