@@ -3,8 +3,8 @@
 ## Table of Contents
 * [Item Catalog](#item-catalog-)
 * [Cascadia Cookbooks](#cascadia-cookbooks)
-    * [Mage2 Terraform - AWS](#user-content-mage2tfaws)
-    * [Mage2 Terraform - DigitalOcean](#user-content-mage2tfdo)
+    * [Magento 2 Terraform - AWS](#user-content-mage2tfaws)
+    * [Magento 2 Terraform - DigitalOcean](#user-content-mage2tfdo)
     * [Magento 2 Starter](#user-content-mage2sstarter)
     * [Cron Chef cookbook](#user-content-cascron)
     * [Magento Chef cookbook](#user-content-casmagento)
