@@ -32,30 +32,30 @@ In addition to the web app, multiple deployment and configuration options are pr
 ---
 Open source cookbooks and templates covering a range of services, applications, infrastructures, and providers. Intended to be a stepping off point for collaboration across organizations without the limitations or associations of any single for profit group.
 
-[Magento 2 Terraform Reference - AWS](https://github.com/cascadia-cookbooks/magento2-terraform-aws) - Large scale highly available infrastructure reference for the Magento 2 ecommerce application. Includes configuration for EC2 auto scaling groups, EFS file system, RDS database, security groups, and more. Use as a module allows for convenience and reapatibility across multiple environments (preview, staging, production, etc.).
+[Magento 2 Terraform Reference - AWS](https://github.com/cascadia-cookbooks/magento2-terraform-aws)<a name="mage2tfaws"></a> - Large scale highly available infrastructure reference for the Magento 2 ecommerce application. Includes configuration for EC2 auto scaling groups, EFS file system, RDS database, security groups, and more. Use as a module allows for convenience and reapatibility across multiple environments (preview, staging, production, etc.).
 
-[Magento 2 Terraform Reference - DigitalOcean](https://github.com/cascadia-cookbooks/magento2-terraform-digitalocean) - Basic configuration of DigitalOcean resources for a low cost, low complexity alternative to managed hosting providers. Intended for use as a module to provision application and database droplets. Includes example of module usage for reference.
+[Magento 2 Terraform Reference - DigitalOcean](https://github.com/cascadia-cookbooks/magento2-terraform-digitalocean)<a name="mage2tfdo"></a> - Basic configuration of DigitalOcean resources for a low cost, low complexity alternative to managed hosting providers. Intended for use as a module to provision application and database droplets. Includes example of module usage for reference.
 
-[Magento 2 Starter](https://github.com/cascadia-cookbooks/magento2-starter) - Work in progress. Starter project for the Magento 2 ecommerce application. Intended as a "fork-and-go" for anyone looking for a quickstart into a highly customizable deployment of Magento 2. Includes configuration management for multiple environments (local, staging, production) utilizing strictly open source Chef cookbooks.
+[Magento 2 Starter](https://github.com/cascadia-cookbooks/magento2-starter)<a name="mage2starter"></a> - Work in progress. Starter project for the Magento 2 ecommerce application. Intended as a "fork-and-go" for anyone looking for a quickstart into a highly customizable deployment of Magento 2. Includes configuration management for multiple environments (local, staging, production) utilizing strictly open source Chef cookbooks.
 
-[Cron Chef cookbook](https://github.com/cascadia-cookbooks/cron) - Chef cookbook for management of the cron daemon and creation of cron jobs.
+[Cron Chef cookbook](https://github.com/cascadia-cookbooks/cron)<a name="cascron"></a> - Chef cookbook for management of the cron daemon and creation of cron jobs.
 
-[Magento Chef cookbook](https://github.com/cascadia-cookbooks/magento) - Work in progress. Chef cookbook for the pre-deployment configuration of a Magento 2 environment.
+[Magento Chef cookbook](https://github.com/cascadia-cookbooks/magento)<a name="casmagento"></a> - Work in progress. Chef cookbook for the pre-deployment configuration of a Magento 2 environment.
 
-[Robots.txt Chef cookbook](https://github.com/cascadia-cookbooks/robots) - Chef cookbook for the management of a site's `robots.txt`.
+[Robots.txt Chef cookbook](https://github.com/cascadia-cookbooks/robots)<a name="casrobots"></a> - Chef cookbook for the management of a site's `robots.txt`.
 
 [![Doug](/assets/cascadia/doug.png)](https://en.wikipedia.org/wiki/Doug_flag) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Chef](/assets/cascadia/chef.png)](https://www.chef.io/) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Terraform](/assets/cascadia/terraform.png)](https://www.terraform.io/) 
 
 ***
 [Copious Cookbooks](https://github.com/copious-cookbooks)
 ---
-A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Copious](https://github.com/copious) with a 'tests first' strategy.
+A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Copious](https://github.com/copious).
 
-[magento](https://github.com/copious-cookbooks/magento) - Installation and configuration of [Magento 2](http://devdocs.magento.com/) ecommerce platform.
+[magento](https://github.com/copious-cookbooks/magento)<a name="copmagento"></a> - Installation and configuration of [Magento 2](http://devdocs.magento.com/) ecommerce platform.
 
-[users](https://github.com/copious-cookbooks/users) - Creation and management of Linux system users.
+[users](https://github.com/copious-cookbooks/users)<a name="copusers"></a> - Creation and management of Linux system users.
 
-[keepalived](https://github.com/copious-cookbooks/keepalived) - Management of the `keepalived` service for Ubuntu, RHEL/CentOS, and Debian platforms
+[keepalived](https://github.com/copious-cookbooks/keepalived)<a name="copkeepalived"></a> - Management of the `keepalived` service for Ubuntu, RHEL/CentOS, and Debian platforms
 
 ***
 [Dreadnought](https://github.com/jerrywardlow/devops-playground/tree/master/dreadnought)
@@ -81,24 +81,24 @@ Ansible playbooks to install and configure the Vanilla Forums PHP web applicatio
 Docker
 ---
 
-[Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile) - An incredibly lightweight and irresponsible containerized implementation of the aforementioned Item Catalog on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
+[Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile)<a name="dockalp"></a> - An incredibly lightweight and irresponsible containerized implementation of the aforementioned Item Catalog on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
 
-[Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml) - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
+[Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml)<a name="dockwamp"></a> - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
 
-[Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/) - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
+[Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/)<a name="dockcatalog"></a> - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
 
-[Express](https://hub.docker.com/r/jerrywardlow/express-catalog/) - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
+[Express](https://hub.docker.com/r/jerrywardlow/express-catalog/)<a name="dockexpress"></a> - Docker Hub container image automatically built from source repository for a basic MEAN stack catalog.
 ***
 Ansible
 ---
 
-[Magento](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-magento) - Deployment of Magento 2 artifact generated via CircleCI.
+[Magento](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-magento)<a name="ansmagento"></a> - Deployment of Magento 2 artifact generated via CircleCI.
 
-[Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla) - Configuration for Joomla CMS and associated PostgreSQL database.
+[Joomla](https://github.com/jerrywardlow/devops-playground/tree/master/ansible-joomla)<a name="ansjoomla"></a> - Configuration for Joomla CMS and associated PostgreSQL database.
 
-[MEAN catalog](https://github.com/jerrywardlow/meansible) - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
+[MEAN catalog](https://github.com/jerrywardlow/meansible)<a name="ansmean"></a> - Example configuration for a MEAN stack application. Includes playbooks for NGINX, NodeJS, and MongoDB, as well as general Linux housekeeping.
 
-[p5linux](https://github.com/jerrywardlow/p5linux) - Ansible playbook for Project 5 of the Udacity Full Stack Web Developer Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
+[p5linux](https://github.com/jerrywardlow/p5linux)<a name="ansp5"></a> - Ansible playbook for Project 5 of the Udacity Full Stack Web Developer Nanodegree. Implements basic Linux chores like user creation, firewalling, SSH lockdown, and deployment of a Python web app behind Gunicorn and Apache.
 ***
 [Conference Central ](https://github.com/jerrywardlow/p4conference)
 ---
