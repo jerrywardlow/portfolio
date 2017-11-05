@@ -1,5 +1,15 @@
 # Selected projects by Jerry Wardlow
 
+## Table of Contents
+* [Item Catalog](#item-catalog-)
+* [Cascadia Cookbooks](#cascadia-cookbooks)
+* [Copious Cookbooks](#copious-cookbooks)
+* [Dreadnought](#dreadnought)
+* [Wordpress on AWS](#wordpress-on-amazon-web-services-)
+* [Ansible config for VanillaPHP](#ansible-configuration-for-vanilla-forums-)
+* [Docker](#docker)
+* [Ansible Playbooks](#ansible)
+* [Google App Engine](#conference-central-)
 
 [Item Catalog ](https://github.com/jerrywardlow/p3catalog)
 ---
