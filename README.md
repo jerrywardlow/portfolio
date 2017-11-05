@@ -3,14 +3,32 @@
 ## Table of Contents
 * [Item Catalog](#item-catalog-)
 * [Cascadia Cookbooks](#cascadia-cookbooks)
-* [Copious Cookbooks](#copious-cookbooks)
+    * [Mage2 Terraform - AWS](#user-content-mage2tfaws)
+    * [Mage2 Terraform - DigitalOcean](#user-content-mage2tfdo)
+    * [Magento 2 Starter](#user-content-mage2sstarter)
+    * [Cron Chef cookbook](#user-content-cascron)
+    * [Magento Chef cookbook](#user-content-casmagento)
+    * [Robots.txt Chef cookbook](#user-content-casrobots)
+* [Copious Chef Cookbooks](#copious-cookbooks)
+    * [Magento](#user-content-copmagento)
+    * [Users](#user-content-copusers)
+    * [Keepalived](#user-content-copkeepalived)
 * [Dreadnought](#dreadnought)
 * [Wordpress on AWS](#wordpress-on-amazon-web-services-)
 * [Ansible config for VanillaPHP](#ansible-configuration-for-vanilla-forums-)
 * [Docker](#docker)
+    * [Python on Alpine Linux](#user-content-dockalp)
+    * [LAMP/phpMyAdmin](#user-content-docklamp)
+    * [Python App](#user-content-dockcatalog)
+    * [Express App](#user-content-dockexpress)
 * [Ansible Playbooks](#ansible)
+    * [Magento](#user-content-ansmagento)
+    * [Joomla](#user-content-ansjoomla)
+    * [MEAN Stack](#user-content-ansmean)
+    * [Linux Config](#user-content-ansp5)
 * [Google App Engine](#conference-central-)
 
+***
 [Item Catalog ](https://github.com/jerrywardlow/p3catalog)
 ---
 A RESTful web application built on the Python Flask framework.
@@ -83,7 +101,7 @@ Docker
 
 [Alpine Catalog](https://github.com/jerrywardlow/docker-playground/blob/master/alpine-catalog/Dockerfile)<a name="dockalp"></a> - An incredibly lightweight and irresponsible containerized implementation of the aforementioned Item Catalog on Alpine Linux. PostgreSQL and Gunicorn are left behind in exchange for SQLite and the builtin Flask server.
 
-[Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml)<a name="dockwamp"></a> - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
+[Wordpress/PHPMyAdmin/MariaDB](https://github.com/jerrywardlow/docker-playground/blob/master/wppma/docker-compose.yml)<a name="docklamp"></a> - Docker Compose is used to bring up linked containers for Wordpress and MariaDB. A third container running PHPMyAdmin is presented as a convenience.
 
 [Item Catalog](https://hub.docker.com/r/jerrywardlow/p3catalog/)<a name="dockcatalog"></a> - Docker image for [Item Catalog](https://github.com/jerrywardlow/p3catalog) hosted on Docker Hub and automatically built/updated from the source repository.
 
