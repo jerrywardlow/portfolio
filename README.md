@@ -7,6 +7,7 @@
     * [Magento 2 Terraform - DigitalOcean](#user-content-mage2tfdo)
     * [Magento 2 Starter](#user-content-mage2sstarter)
     * [Cron Chef cookbook](#user-content-cascron)
+    * [Logrotate Chef cookbook](#user-content-caslogrotate)
     * [Magento Chef cookbook](#user-content-casmagento)
     * [Robots.txt Chef cookbook](#user-content-casrobots)
 * [Copious Chef Cookbooks](#copious-cookbooks)
@@ -56,7 +57,9 @@ Open source cookbooks and templates covering a range of services, applications, 
 
 [Magento 2 Starter](https://github.com/cascadia-cookbooks/magento2-starter)<a name="mage2starter"></a> - Work in progress. Starter project for the Magento 2 ecommerce application. Intended as a "fork-and-go" for anyone looking for a quickstart into a highly customizable deployment of Magento 2. Includes configuration management for multiple environments (local, staging, production) utilizing strictly open source Chef cookbooks.
 
-[Cron Chef cookbook](https://github.com/cascadia-cookbooks/cron)<a name="cascron"></a> - Chef cookbook for management of the cron daemon and creation of cron jobs.
+[Cron Chef cookbook](https://github.com/cascadia-cookbooks/cron)<a name="cascron"></a> - Chef cookbook for the management of the cron daemon and creation of cron jobs.
+
+[Logrotate Chef cookbook](https://github.com/cascadia-cookbooks/logrotate)<a name="caslogrotate"></a> - Chef cookbook for the management of the logrotate utility and associated entries.
 
 [Magento Chef cookbook](https://github.com/cascadia-cookbooks/magento)<a name="casmagento"></a> - Work in progress. Chef cookbook for the pre-deployment configuration of a Magento 2 environment.
 
