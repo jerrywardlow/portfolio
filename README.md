@@ -9,10 +9,6 @@
     * [Logrotate Chef cookbook](#user-content-caslogrotate)
     * [Magento Chef cookbook](#user-content-casmagento)
     * [Robots.txt Chef cookbook](#user-content-casrobots)
-* [Copious Chef Cookbooks](#copious-cookbooks)
-    * [Magento](#user-content-copmagento)
-    * [Users](#user-content-copusers)
-    * [Keepalived](#user-content-copkeepalived)
 * [Dreadnought](#dreadnought)
 * [Wordpress on AWS](#wordpress-on-amazon-web-services-)
 * [Item Catalog](#item-catalog-)
@@ -49,17 +45,6 @@ Open source cookbooks and templates covering a range of services, applications, 
 [Robots.txt Chef cookbook](https://github.com/cascadia-cookbooks/robots)<a name="casrobots"></a> - Chef cookbook for the management of a site's `robots.txt`.
 
 [![Doug](/assets/cascadia/doug.png)](https://en.wikipedia.org/wiki/Doug_flag) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Chef](/assets/cascadia/chef.png)](https://www.chef.io/) &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; &#8291; [![Terraform](/assets/cascadia/terraform.png)](https://www.terraform.io/) 
-
-***
-[Copious Cookbooks](https://github.com/copious-cookbooks)
----
-A sample of public [Chef](https://www.chef.io/chef/) cookbooks developed for [Copious](https://github.com/copious).
-
-[magento](https://github.com/copious-cookbooks/magento)<a name="copmagento"></a> - Installation and configuration of [Magento 2](http://devdocs.magento.com/) ecommerce platform.
-
-[users](https://github.com/copious-cookbooks/users)<a name="copusers"></a> - Creation and management of Linux system users.
-
-[keepalived](https://github.com/copious-cookbooks/keepalived)<a name="copkeepalived"></a> - Management of the `keepalived` service for Ubuntu, RHEL/CentOS, and Debian platforms
 
 ***
 [Dreadnought](https://github.com/jerrywardlow/devops-playground/tree/master/dreadnought)
